@@ -1,0 +1,222 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo .e {
+  color: #f55c2e;
+  border: 1px solid #2e7d32;
+  padding: 0 4px;
+  border-radius: 2px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sign-up {
+  background-color: #f55c2e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Main section */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+.content {
+  max-width: 50%;
+}
+h1 {
+  font-size: 44px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  color: #222;
+}
+h1 .highlight {
+  color: #f55c2e;
+}
+p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #666;
+}
+.explore {
+  background-color: #f55c2e;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.illustration img {
+  max-width: 500px;
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9fb;
+  margin: 0;
+  color: #333;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+.hero-text {
+  max-width: 50%;
+}
+.hero-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.orange {
+  color: #f55c2e;
+}
+.hero-text p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.hero-text button {
+  padding: 12px 24px;
+  background-color: #f55c2e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.hero-image img {
+  width: 400px;
+}
+
+/* Top Food */
+.top-food {
+  padding: 60px;
+  background-color: #fff;
+}
+.top-food h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.food-list {
+  display: flex;
+  gap: 30px;
+}
+.food-card {
+  background: #fefefe;
+  border-radius: 10px;
+  padding: 10px;
+  width: 250px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.food-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.food-card h4 {
+  margin: 10px 0 5px;
+}
+.food-card .time {
+  font-size: 14px;
+  color: #555;
+}
+.pink {
+  background-color: #ff4c61;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Download App */
+.download-app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: #fff;
+}
+.app-text {
+  max-width: 50%;
+}
+.app-text h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.app-text p {
+  font-size: 15px;
+  color: #666;
+}
+.app-images img {
+  width: 320px;
+}
+
+/* Subscribe */
+.subscribe {
+  background-color: #f55c2e;
+  padding: 40px 60px;
+  text-align: center;
+  color: white;
+}
+.subscribe h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.subscribe input {
+  padding: 12px;
+  width: 300px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+.subscribe button {
+  background: white;
+  color: #f55c2e;
+  border: none;
+  padding: 12px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
